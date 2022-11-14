@@ -12,7 +12,7 @@ public class AlwaysLootAtCamera : MonoBehaviour
 
         if (_camera == null)
             _camera = Camera.main;
-        transform.forward = _camera.transform.forward;
+        transform.forward = _camera.transform.forward;        
 
     }
 }
